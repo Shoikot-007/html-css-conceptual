@@ -45,4 +45,10 @@ h1 {
   border-radius: 6px;
   font-size: 24px;
   font-family: "Gamja Flower", sans-serif;
+  cursor: pointer;
+  transition: all 1s;
+}
+
+.btn:hover {
+  background-color: green;
 }

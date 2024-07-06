@@ -1,26 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&family=Space+Grotesk:wght@300..700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
 }
 
 #heading-parent {
-  background-color: rgb(31, 14, 8);
+  background-image: url("../asset/pexels-photo-4974914.webp");
+  background-size: cover;
+  background-position: center;
   height: 600px;
   padding: 100px 0;
-  width: 800px;
+  max-width: 800px;
+  /* If you get more width than 1100px than you only take 1100px, or else you take 100% of the width */
   /* margin-top: 40px;
   margin-bottom: 10px;
   margin-left: auto;
   margin-right: auto; */
   margin: 30px auto;
+  clip-path: polygon(100% 0, 100% 72%, 57% 100%, 0 100%, 0 0);
 }
 
 h1 {
-  color: red;
-  font-style: italic;
-  font-weight: lighter;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: white;
+  font-weight: bolder;
+  font-family: "Space Grotesk", sans-serif;
   text-decoration: overline;
   font-size: 80px;
   text-align: center;
+}
+
+.btn-parent {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn {
+  background-color: rgb(136, 55, 202);
+  padding: 8px 15px;
+  color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: yellow;
+  border-radius: 6px;
+  font-size: 24px;
+  font-family: "Gamja Flower", sans-serif;
 }
